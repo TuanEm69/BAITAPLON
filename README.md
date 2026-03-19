@@ -4,6 +4,7 @@
   - Truy cập trang web kaggle.com để lấy API KEY, tải file kaglle.json về
   - Tải dataset trực tiếp từ Kaggle thông qua API (ifeanyinneji/nike-adidas... và hasibalmuzdadid/shoe-vs-sandal...).
   - Truy cập trang web google colab.com, tạo 1 sổ tay mới, thay đổi thời gian chạy thành GPU T4 và dán đoạn code này lên 1 cell:
+- **Code:** 
 import os
 import shutil
 import tensorflow as tf
@@ -86,9 +87,10 @@ with open('labels.txt', 'w') as f:
 print(f"\n--- XONG! ĐANG TẢI {model_file} ---")
 files.download(model_file)
 files.download('labels.txt')
-    -------------------------------------------------------------------------------------------------------------------
 
-    - file model_shoe_and_brand.h5 sẽ tự động được tải về.
+   
+
+- file model_shoe_and_brand.h5 sẽ tự động được tải về.
 
   # Bước 2. Thiết kế giao diện và liên kiết
   - Mở virual studio code, tạo 1 folder đặt tên dự án là BTL_TTTNT
