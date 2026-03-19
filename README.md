@@ -4,7 +4,9 @@
   - Truy cập trang web kaggle.com để lấy API KEY, tải file kaglle.json về
   - Tải dataset trực tiếp từ Kaggle thông qua API (ifeanyinneji/nike-adidas... và hasibalmuzdadid/shoe-vs-sandal...).
   - Truy cập trang web google colab.com, tạo 1 sổ tay mới, thay đổi thời gian chạy thành GPU T4 và dán đoạn code này lên 1 cell:
-- **Code:** 
+
+    
+Code:
 import os
 import shutil
 import tensorflow as tf
